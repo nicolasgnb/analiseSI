@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">StreetMusic</string>
+    <string name="title_activity_cad_cliente">Cadastro de Cliente</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="nome">Nome</string>
 </resources>

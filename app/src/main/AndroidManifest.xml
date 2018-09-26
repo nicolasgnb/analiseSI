@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ActivityCadCliente"
+            android:label="@string/title_activity_cad_cliente"></activity>
     </application>
 
 </manifest>
