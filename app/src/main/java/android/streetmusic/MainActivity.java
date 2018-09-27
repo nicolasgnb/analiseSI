@@ -12,10 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Button cadastro = findViewById(R.id.cadastro);
-        cadastro.setOnClickListener(new View.OnClickListener() {
+        final Button btCadastro = findViewById(R.id.botaoCadastroMain);
+        btCadastro.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this,ActivityCadCliente.class);
+                startActivity(it);
+            }
+        });
+        final Button btLogin = findViewById(R.id.botaoLoginMain);
+        btLogin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this,ActivityLogin.class);
                 startActivity(it);
             }
         });

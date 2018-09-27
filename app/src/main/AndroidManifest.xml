@@ -18,7 +18,13 @@
         </activity>
         <activity
             android:name=".ActivityCadCliente"
-            android:label="@string/title_activity_cad_cliente"></activity>
+            android:label="@string/title_activity_cad_cliente" />
+        <activity
+            android:name=".ActivityConfirmaCadastro"
+            android:label="@string/title_activity_confirma_cadastro" />
+        <activity
+            android:name=".ActivityLogin"
+            android:label="@string/title_activity_login"></activity>
     </application>
 
 </manifest>

@@ -5,18 +5,17 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
-public class ActivityCadCliente extends Activity {
+public class ActivityConfirmaCadastro extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cad_cliente);
-        final Button btConfrimaCadastro = findViewById(R.id.botaoConfirmaCadastro);
-        btConfrimaCadastro.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_confirma_cadastro);
+        final Button btLogin = findViewById(R.id.botaoLoginMain);
+        btLogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(ActivityCadCliente.this,ActivityConfirmaCadastro.class);
+                Intent it = new Intent(ActivityConfirmaCadastro.this,ActivityLogin.class);
                 startActivity(it);
             }
         });

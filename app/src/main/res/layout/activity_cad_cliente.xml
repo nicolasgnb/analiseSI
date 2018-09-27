@@ -6,42 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".ActivityCadCliente">
 
-    <EditText
-        android:id="@+id/campoEmail"
+    <TextView
+        android:id="@+id/textoInfoCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="204dp"
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textEmailAddress"
-        android:text="@string/e_mail"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="102dp"
+        android:text="@string/por_favor_preencha_os_campos_abaixo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/campoNome"
+    <TextView
+        android:id="@+id/textoNomeCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/nome"
+        app:layout_constraintStart_toStartOf="@+id/textoInfoCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/textoInfoCadastro" />
+
+    <EditText
+        android:id="@+id/campoNomeCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:text="@string/nome"
-        app:layout_constraintBottom_toTopOf="@+id/campoEmail"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/textoNomeCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/textoNomeCadastro" />
 
-    <EditText
-        android:id="@+id/campoSenha"
+    <TextView
+        android:id="@+id/textoEmailCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/e_mail"
+        app:layout_constraintStart_toStartOf="@+id/campoNomeCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/campoNomeCadastro" />
+
+    <EditText
+        android:id="@+id/campoEmailCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/textoEmailCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/textoEmailCadastro" />
+
+    <TextView
+        android:id="@+id/textoSenhaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/senha"
+        app:layout_constraintStart_toStartOf="@+id/campoEmailCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/campoEmailCadastro" />
+
+    <EditText
+        android:id="@+id/campoSenhaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campoEmail" />
+        app:layout_constraintStart_toStartOf="@+id/textoSenhaCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/textoSenhaCadastro" />
+
+    <Button
+        android:id="@+id/botaoConfirmaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="51dp"
+        android:text="@string/confirmar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoSenhaCadastro" />
 
 </android.support.constraint.ConstraintLayout>
