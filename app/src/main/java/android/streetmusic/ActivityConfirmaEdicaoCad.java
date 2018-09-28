@@ -6,16 +6,16 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 
-public class ActivityLogin extends Activity {
+public class ActivityConfirmaEdicaoCad extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        final Button btConfirmaLogin = findViewById(R.id.confirmaLogin);
-        btConfirmaLogin.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_confirma_edicao_cad);
+        final Button btConfrimaEdicao = findViewById(R.id.btConfirmaEdicao);
+        btConfrimaEdicao.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(ActivityLogin.this,ActivityPerfilUsuario.class);
+                Intent it = new Intent(ActivityConfirmaEdicaoCad.this,ActivityPerfilUsuario.class);
                 startActivity(it);
             }
         });

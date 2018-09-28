@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityEditarPerfil">
+
+    <TextView
+        android:id="@+id/textoInfoEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/por_favor_preencha_os_campos_abaixo"
+        app:layout_constraintBottom_toTopOf="@+id/textoNomeEdita"
+        app:layout_constraintStart_toStartOf="@+id/textoNomeEdita" />
+
+    <TextView
+        android:id="@+id/textoNomeEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="115dp"
+        android:text="@string/nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/campoNomeEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="31dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textoNomeEdita"
+        app:layout_constraintTop_toBottomOf="@+id/textoNomeEdita" />
+
+    <TextView
+        android:id="@+id/textoEmailEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/e_mail"
+        app:layout_constraintStart_toStartOf="@+id/campoNomeEdita"
+        app:layout_constraintTop_toBottomOf="@+id/campoNomeEdita" />
+
+    <EditText
+        android:id="@+id/campoEmailEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/textoEmailEdita"
+        app:layout_constraintTop_toBottomOf="@+id/textoEmailEdita" />
+
+    <TextView
+        android:id="@+id/textoSenhaEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/senha"
+        app:layout_constraintBottom_toTopOf="@+id/campoSenhaEdita"
+        app:layout_constraintStart_toStartOf="@+id/campoSenhaEdita" />
+
+    <EditText
+        android:id="@+id/campoSenhaEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="27dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btConfirmaEdita"
+        app:layout_constraintEnd_toEndOf="@+id/campoEmailEdita"
+        app:layout_constraintStart_toStartOf="@+id/textoNomeEdita" />
+
+    <Button
+        android:id="@+id/btConfirmaEdita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
