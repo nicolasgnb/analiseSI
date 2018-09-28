@@ -35,7 +35,7 @@
             android:name=".ActivityConfirmaEdicaoCad"
             android:label="@string/title_activity_confirma_edicao_cad" />
         <activity
-            android:name=".ActivityConfirmacaoMusico"
+            android:name=".ActivityConfirmaMusico"
             android:label="@string/title_activity_activiry_confirmacao_musico" />
         <activity
             android:name=".ActivityContaFinanceira"
@@ -51,7 +51,28 @@
             android:label="@string/title_activity_confirma_cartao_credito" />
         <activity
             android:name=".ActivityConfirmaContaBancaria"
-            android:label="@string/title_activity_confirma_conta_bancaria"></activity>
+            android:label="@string/title_activity_confirma_conta_bancaria" />
+        <activity
+            android:name=".ActivityMusicosSeguidos"
+            android:label="@string/title_activity_musicos_seguidos" />
+        <activity
+            android:name=".ActivityDoacao"
+            android:label="@string/title_activity_doacao" />
+        <activity
+            android:name=".ActivityConfirmaDoacao"
+            android:label="@string/title_activity_confirma_doacao" />
+        <activity
+            android:name=".ActivityShowsProximos"
+            android:label="@string/title_activity_shows_proximos" />
+        <activity
+            android:name=".ActivityConfirmaCheckIn"
+            android:label="@string/title_activity_confirma_check_in" />
+        <activity
+            android:name=".ActivityMensagem"
+            android:label="@string/title_activity_mensagem" />
+        <activity
+            android:name=".ActivityConfirmaMensagem"
+            android:label="@string/title_activity_confirma_mensagem"></activity>
     </application>
 
 </manifest>

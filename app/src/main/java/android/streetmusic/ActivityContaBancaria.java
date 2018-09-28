@@ -18,6 +18,7 @@ public class ActivityContaBancaria extends Activity {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityContaBancaria.this,ActivityConfirmaContaBancaria.class);
                 startActivity(it);
+                finish();
             }
         });
     }

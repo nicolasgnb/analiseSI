@@ -15,8 +15,7 @@ public class ActivityConfirmaEdicaoCad extends Activity {
         final Button btConfrimaEdicao = findViewById(R.id.btConfirmaEdicao);
         btConfrimaEdicao.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(ActivityConfirmaEdicaoCad.this,ActivityPerfilUsuario.class);
-                startActivity(it);
+                finish();
             }
         });
     }

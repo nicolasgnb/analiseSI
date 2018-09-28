@@ -12,11 +12,13 @@ public class ActivityLogin extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         final Button btConfirmaLogin = findViewById(R.id.confirmaLogin);
         btConfirmaLogin.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityLogin.this,ActivityPerfilUsuario.class);
                 startActivity(it);
+                finish();
             }
         });
     }

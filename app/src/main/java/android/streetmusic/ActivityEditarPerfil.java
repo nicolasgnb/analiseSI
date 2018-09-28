@@ -17,6 +17,7 @@ public class ActivityEditarPerfil extends Activity {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityEditarPerfil.this,ActivityConfirmaEdicaoCad.class);
                 startActivity(it);
+                finish();
             }
         });
     }

@@ -17,6 +17,7 @@ public class ActivityCartaoCredito extends Activity {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityCartaoCredito.this,ActivityConfirmaCartaoCredito.class);
                 startActivity(it);
+                finish();
             }
         });
     }

@@ -6,17 +6,17 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.Button;
 
-public class ActivityConfirmacaoMusico extends Activity {
+public class ActivityMusicosSeguidos extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activiry_confirmacao_musico);
+        setContentView(R.layout.activity_musicos_seguidos);
 
-        final Button btConfirmaMusico = findViewById(R.id.btVoltaPerfilMusico);
-        btConfirmaMusico.setOnClickListener(new View.OnClickListener() {
+        final Button btDoacao = findViewById(R.id.btDoacao);
+        btDoacao.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(ActivityConfirmacaoMusico.this,ActivityPerfilUsuario.class);
+                Intent it = new Intent(ActivityMusicosSeguidos.this,ActivityDoacao.class);
                 startActivity(it);
             }
         });

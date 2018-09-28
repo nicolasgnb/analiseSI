@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityShowsProximos"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textoInfoShows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/lista_de_shows_pr_ximos_a_voc"
+        app:layout_constraintBottom_toTopOf="@+id/textoShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoShow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="419dp"
+        android:text="@string/green_day_cover_jo_o_da_silva_endere_o_rua_do_limoeiro_789"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btCkeckIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoInfoShows" />
+
+    <Button
+        android:id="@+id/btCkeckIn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/checkin"
+        app:layout_constraintBottom_toBottomOf="@+id/btMensagem"
+        app:layout_constraintEnd_toStartOf="@+id/btMensagem"
+        app:layout_constraintStart_toEndOf="@+id/textoShow"
+        app:layout_constraintTop_toTopOf="@+id/btMensagem" />
+
+    <Button
+        android:id="@+id/btMensagem"
+        android:layout_width="108dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="411dp"
+        android:text="@string/enviar_mensagem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btCkeckIn"
+        app:layout_constraintTop_toBottomOf="@+id/textoInfoShows" />
+</android.support.constraint.ConstraintLayout>

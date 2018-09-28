@@ -16,8 +16,7 @@ public class ActivityConfirmaContaBancaria extends Activity {
         final Button btConfirma = findViewById(R.id.btConfirma);
         btConfirma.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(ActivityConfirmaContaBancaria.this,ActivityPerfilUsuario.class);
-                startActivity(it);
+                finish();
             }
         });
     }

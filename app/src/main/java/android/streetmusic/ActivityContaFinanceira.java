@@ -18,6 +18,7 @@ public class ActivityContaFinanceira extends Activity {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityContaFinanceira.this,ActivityCartaoCredito.class);
                 startActivity(it);
+                finish();
             }
         });
 
@@ -26,6 +27,7 @@ public class ActivityContaFinanceira extends Activity {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityContaFinanceira.this,ActivityContaBancaria.class);
                 startActivity(it);
+                finish();
             }
         });
     }

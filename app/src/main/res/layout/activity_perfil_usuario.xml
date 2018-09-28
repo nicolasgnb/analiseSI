@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPerfilUsuario"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/btEditarPerfil"
+        android:layout_width="155dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/editar_perfil"
+        app:layout_constraintBottom_toTopOf="@+id/btContaFinanceira"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoBemVindo" />
+
+    <Button
+        android:id="@+id/btTornaMusico"
+        android:layout_width="155dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="89dp"
+        android:text="@string/virar_musico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSeguidos" />
+
+    <Button
+        android:id="@+id/btContaFinanceira"
+        android:layout_width="155dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/conta_financeira"
+        app:layout_constraintBottom_toTopOf="@+id/btShowsProximos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btEditarPerfil" />
+
+    <TextView
+        android:id="@+id/textoBemVindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="39dp"
+        android:text="@string/bem_vindo_usu_rio"
+        app:layout_constraintBottom_toTopOf="@+id/btEditarPerfil"
+        app:layout_constraintStart_toStartOf="@+id/btEditarPerfil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btSeguidos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/musicos_seguidos"
+        app:layout_constraintBottom_toTopOf="@+id/btTornaMusico"
+        app:layout_constraintEnd_toEndOf="@+id/btTornaMusico"
+        app:layout_constraintStart_toStartOf="@+id/btTornaMusico"
+        app:layout_constraintTop_toBottomOf="@+id/btPesquisaMusicos" />
+
+    <Button
+        android:id="@+id/btShowsProximos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/shows_pr_ximos"
+        app:layout_constraintBottom_toTopOf="@+id/btPesquisaMusicos"
+        app:layout_constraintEnd_toEndOf="@+id/btPesquisaMusicos"
+        app:layout_constraintStart_toStartOf="@+id/btPesquisaMusicos"
+        app:layout_constraintTop_toBottomOf="@+id/btContaFinanceira" />
+
+    <Button
+        android:id="@+id/btPesquisaMusicos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/pesquisar_m_sicos"
+        app:layout_constraintBottom_toTopOf="@+id/btSeguidos"
+        app:layout_constraintEnd_toEndOf="@+id/btSeguidos"
+        app:layout_constraintStart_toStartOf="@+id/btSeguidos"
+        app:layout_constraintTop_toBottomOf="@+id/btShowsProximos" />
+
+</android.support.constraint.ConstraintLayout>

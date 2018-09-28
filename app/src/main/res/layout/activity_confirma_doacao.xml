@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityConfirmaDoacao">
+
+    <TextView
+        android:id="@+id/textoInfoConfirmaDoacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="221dp"
+        android:layout_marginBottom="33dp"
+        android:text="@string/doa_o_realizada_com_sucesso"
+        app:layout_constraintBottom_toTopOf="@+id/btConfirmaDoacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btConfirmaDoacao"
+        android:layout_width="152dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="223dp"
+        android:text="@string/voltar_ao_m_sicos_musicos_seguidos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoInfoConfirmaDoacao" />
+</android.support.constraint.ConstraintLayout>
