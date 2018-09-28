@@ -9,7 +9,6 @@
     <string name="email">Email</string>
     <string name="senha">Senha</string>
     <string name="por_favor_preencha_os_campos_abaixo">Por favor, preencha os campos abaixo:</string>
-    <string name="confirmar">Confirmar</string>
     <string name="title_activity_confirma_cadastro">ActivityConfirmaCadastro</string>
     <string name="cadastro_confirmado_com_sucesso">Cadastro confirmado com sucesso!</string>
     <string name="title_activity_login">ActivityLogin</string>
@@ -21,4 +20,26 @@
     <string name="title_activity_confirma_edicao_cad">ActivityConfirmaEdicaoCad</string>
     <string name="cadastro_editado_com_sucesso">Cadastro editado com sucesso!</string>
     <string name="voltar_ao_perfil">Voltar ao perfil</string>
+    <string name="title_activity_activiry_confirmacao_musico">ActiviryConfirmacaoMusico</string>
+    <string name="parab_ns_agora_voc_um_m_sico">Parabéns! Agora você é um músico!</string>
+    <string name="bem_vindo_usu_rio">Bem vindo usuário!</string>
+    <string name="conta_financeira">Conta Financeira</string>
+    <string name="virar_musico">Virar Musico</string>
+    <string name="title_activity_conta_financeira">ActivityContaFinanceira</string>
+    <string name="qual_op_o_gostaria_de_cadastrar">Qual opção gostaria de cadastrar?</string>
+    <string name="conta_banc_ria">Conta Bancária</string>
+    <string name="cart_o_de_cr_dito">Cartão de Crédito</string>
+    <string name="title_activity_cartao_credito">ActivityCartaoCredito</string>
+    <string name="title_activity_conta_bancaria">ActivityContaBancaria</string>
+    <string name="por_favor_insira_as_informa_es_abaixo">Por favor, insira as informações abaixo:</string>
+    <string name="n_mero_do_cart_o">Número do Cartão</string>
+    <string name="validade">Validade</string>
+    <string name="n_mero_de_seguran_a">Número de segurança</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="title_activity_confirma_cartao_credito">ActivityConfirmaCartaoCredito</string>
+    <string name="cart_o_cadastrado_com_sucesso">Cartão cadastrado com sucesso!</string>
+    <string name="ag_ncia">Agência</string>
+    <string name="conta">Conta</string>
+    <string name="title_activity_confirma_conta_bancaria">ActivityConfirmaContaBancaria</string>
+    <string name="conta_banc_ria_cadastrada_com_sucesso">Conta bancária cadastrada com sucesso!</string>
 </resources>

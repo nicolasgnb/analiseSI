@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityContaBancaria">
+
+    <TextView
+        android:id="@+id/textoInfoContaBancaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/por_favor_insira_as_informa_es_abaixo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoAgencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/ag_ncia"
+        app:layout_constraintStart_toStartOf="@+id/textoInfoContaBancaria"
+        app:layout_constraintTop_toBottomOf="@+id/textoInfoContaBancaria" />
+
+    <EditText
+        android:id="@+id/campoAgencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/textoAgencia"
+        app:layout_constraintTop_toBottomOf="@+id/textoAgencia"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textoConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/conta"
+        app:layout_constraintStart_toStartOf="@+id/campoAgencia"
+        app:layout_constraintTop_toBottomOf="@+id/campoAgencia" />
+
+    <EditText
+        android:id="@+id/campoConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/textoConta"
+        app:layout_constraintTop_toBottomOf="@+id/textoConta"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btConfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="110dp"
+        android:text="@string/confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>

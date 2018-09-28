@@ -33,7 +33,25 @@
             android:label="@string/title_activity_editar_perfil" />
         <activity
             android:name=".ActivityConfirmaEdicaoCad"
-            android:label="@string/title_activity_confirma_edicao_cad"></activity>
+            android:label="@string/title_activity_confirma_edicao_cad" />
+        <activity
+            android:name=".ActivityConfirmacaoMusico"
+            android:label="@string/title_activity_activiry_confirmacao_musico" />
+        <activity
+            android:name=".ActivityContaFinanceira"
+            android:label="@string/title_activity_conta_financeira" />
+        <activity
+            android:name=".ActivityCartaoCredito"
+            android:label="@string/title_activity_cartao_credito" />
+        <activity
+            android:name=".ActivityContaBancaria"
+            android:label="@string/title_activity_conta_bancaria" />
+        <activity
+            android:name=".ActivityConfirmaCartaoCredito"
+            android:label="@string/title_activity_confirma_cartao_credito" />
+        <activity
+            android:name=".ActivityConfirmaContaBancaria"
+            android:label="@string/title_activity_confirma_conta_bancaria"></activity>
     </application>
 
 </manifest>
