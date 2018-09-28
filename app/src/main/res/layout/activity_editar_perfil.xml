@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityEditarPerfil">
+    tools:context=".activities.ActivityEditarPerfil">
 
     <TextView
         android:id="@+id/textoInfoEdita"

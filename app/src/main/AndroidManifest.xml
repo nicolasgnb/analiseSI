@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,61 +17,61 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityCadCliente"
+            android:name=".activities.ActivityCadCliente"
             android:label="@string/title_activity_cad_cliente" />
         <activity
-            android:name=".ActivityConfirmaCadastro"
+            android:name=".activities.ActivityConfirmaCadastro"
             android:label="@string/title_activity_confirma_cadastro" />
         <activity
-            android:name=".ActivityLogin"
+            android:name=".activities.ActivityLogin"
             android:label="@string/title_activity_login" />
         <activity
-            android:name=".ActivityPerfilUsuario"
+            android:name=".activities.ActivityPerfilUsuario"
             android:label="@string/title_activity_acitivity_perfil_usuario" />
         <activity
-            android:name=".ActivityEditarPerfil"
+            android:name=".activities.ActivityEditarPerfil"
             android:label="@string/title_activity_editar_perfil" />
         <activity
-            android:name=".ActivityConfirmaEdicaoCad"
+            android:name=".activities.ActivityConfirmaEdicaoCad"
             android:label="@string/title_activity_confirma_edicao_cad" />
         <activity
-            android:name=".ActivityConfirmaMusico"
+            android:name=".activities.ActivityConfirmaMusico"
             android:label="@string/title_activity_activiry_confirmacao_musico" />
         <activity
-            android:name=".ActivityContaFinanceira"
+            android:name=".activities.ActivityContaFinanceira"
             android:label="@string/title_activity_conta_financeira" />
         <activity
-            android:name=".ActivityCartaoCredito"
+            android:name=".activities.ActivityCartaoCredito"
             android:label="@string/title_activity_cartao_credito" />
         <activity
-            android:name=".ActivityContaBancaria"
+            android:name=".activities.ActivityContaBancaria"
             android:label="@string/title_activity_conta_bancaria" />
         <activity
-            android:name=".ActivityConfirmaCartaoCredito"
+            android:name=".activities.ActivityConfirmaCartaoCredito"
             android:label="@string/title_activity_confirma_cartao_credito" />
         <activity
-            android:name=".ActivityConfirmaContaBancaria"
+            android:name=".activities.ActivityConfirmaContaBancaria"
             android:label="@string/title_activity_confirma_conta_bancaria" />
         <activity
-            android:name=".ActivityMusicosSeguidos"
+            android:name=".activities.ActivityMusicosSeguidos"
             android:label="@string/title_activity_musicos_seguidos" />
         <activity
-            android:name=".ActivityDoacao"
+            android:name=".activities.ActivityDoacao"
             android:label="@string/title_activity_doacao" />
         <activity
-            android:name=".ActivityConfirmaDoacao"
+            android:name=".activities.ActivityConfirmaDoacao"
             android:label="@string/title_activity_confirma_doacao" />
         <activity
-            android:name=".ActivityShowsProximos"
+            android:name=".activities.ActivityShowsProximos"
             android:label="@string/title_activity_shows_proximos" />
         <activity
-            android:name=".ActivityConfirmaCheckIn"
+            android:name=".activities.ActivityConfirmaCheckIn"
             android:label="@string/title_activity_confirma_check_in" />
         <activity
-            android:name=".ActivityMensagem"
+            android:name=".activities.ActivityMensagem"
             android:label="@string/title_activity_mensagem" />
         <activity
-            android:name=".ActivityConfirmaMensagem"
+            android:name=".activities.ActivityConfirmaMensagem"
             android:label="@string/title_activity_confirma_mensagem"></activity>
     </application>
 
