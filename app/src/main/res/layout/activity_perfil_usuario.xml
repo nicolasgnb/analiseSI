@@ -85,4 +85,15 @@
         app:layout_constraintStart_toStartOf="@+id/btSeguidos"
         app:layout_constraintTop_toBottomOf="@+id/btShowsProximos" />
 
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="155dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/sair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btTornaMusico" />
+
 </android.support.constraint.ConstraintLayout>

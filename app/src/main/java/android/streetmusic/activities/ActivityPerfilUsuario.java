@@ -3,15 +3,20 @@ package android.streetmusic.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.streetmusic.MainActivity;
 import android.streetmusic.R;
+import android.streetmusic.db.utils.Session;
 import android.view.View;
 import android.widget.Button;
 
 public class ActivityPerfilUsuario extends Activity {
 
+    private Session session;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        session = new Session(getApplicationContext());
         setContentView(R.layout.activity_perfil_usuario);
 
         final Button btEditarPerfil = findViewById(R.id.btEditarPerfil);
@@ -50,6 +55,15 @@ public class ActivityPerfilUsuario extends Activity {
         btShows.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityPerfilUsuario.this,ActivityShowsProximos.class);
+                startActivity(it);
+            }
+        });
+
+        final Button btSair = findViewById(R.id.btSair);
+        btSair.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                session.setLoggedOut();
+                Intent it = new Intent(ActivityPerfilUsuario.this,MainActivity.class);
                 startActivity(it);
             }
         });
