@@ -44,8 +44,8 @@ public class ActivityPesquisaMusicos extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_busca, menu);
-        MenuItem nome_musico = menu.findItem(R.id.buscar_musico);
-        SearchView searchView = (SearchView)nome_musico.getActionView();
+        MenuItem nome_musico = menu.findItem(R.id.menu_buscar);
+        SearchView searchView = (SearchView) nome_musico.getActionView();
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override

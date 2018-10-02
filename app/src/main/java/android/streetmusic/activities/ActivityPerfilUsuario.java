@@ -60,7 +60,7 @@ public class ActivityPerfilUsuario extends Activity {
         });
 
         final Button btBuscarMusicos = findViewById(R.id.btPesquisaMusicos);
-        btShows.setOnClickListener(new View.OnClickListener() {
+        btBuscarMusicos.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(ActivityPerfilUsuario.this,ActivityPesquisaMusicos.class);
                 startActivity(it);
