@@ -1,4 +1,17 @@
 <resources>
+    <string-array name = "lista_nomes_teste">
+        <item>João da Silva</item>
+        <item>Fulano de Tal</item>
+        <item>666 Heavy Metal From God 999</item>
+        <item>Tiririca</item>
+        <item>Wando</item>
+        <item>Belo</item>
+        <item>Sin with Sebastian</item>
+        <item>Kubanacan</item>
+        <item>Renato CCCP</item>
+        <item>xadu</item>
+    </string-array>
+
     <string name="app_name">StreetMusic</string>
     <string name="title_activity_cad_cliente">Cadastro de Cliente</string>
     <string name="cadastro">Cadastro</string>
@@ -45,6 +58,7 @@
     <string name="conta_banc_ria_cadastrada_com_sucesso">Conta bancária cadastrada com sucesso!</string>
     <string name="musicos_seguidos">Musicos Seguidos</string>
     <string name="large_text">
+
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."

@@ -72,7 +72,10 @@
             android:label="@string/title_activity_mensagem" />
         <activity
             android:name=".activities.ActivityConfirmaMensagem"
-            android:label="@string/title_activity_confirma_mensagem"></activity>
+            android:label="@string/title_activity_confirma_mensagem" />
+        <activity
+            android:name=".activities.ActivityPesquisaMusicos">
+        </activity>
     </application>
 
 </manifest>
